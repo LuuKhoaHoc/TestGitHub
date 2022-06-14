@@ -27,7 +27,9 @@ namespace Test1
             Console.WriteLine("Server return: \"" + Encoding.ASCII.GetString(dataReceive) + "\"");
             //6. Close
             stream.Close();
-            client.Close();
+          client.Close(); 
+	  //7. Do something else
+	  Console.WriteLine("Con cao` cao`");
         }
     }
 }
